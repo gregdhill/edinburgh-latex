@@ -189,7 +189,7 @@
    \vspace*{\stretch{1}}
    \begin{centering}
        \itr@title\@covertitle\\[2ex]
-       \itr@author by\\[2ex] \@coverauthor\\
+       \itr@author \@coverauthor\\
    \end{centering}
    \vspace*{\stretch{1}}
    \rule{\linewidth}{1mm}
