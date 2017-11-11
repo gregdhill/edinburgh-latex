@@ -108,11 +108,9 @@
 }
 
 \def\@firstpage{
-  \setcounter{page}{0}
   \begin{center}
-    {\LARGE\bfseries\@title\par}\vskip 1.5em
+    {\LARGE\bfseries\@title\par}\vskip 1em
   \end{center}%
-  \noindent\ifx\@published\relax\else\@published\vspace{3ex}\fi
 }
 
 \def\cleartitlevars{
@@ -134,7 +132,7 @@
       \par\noindent\inftech@copyright
     \end{titlepage}
   \else
-    \newpage\@firstpage\thispagestyle{empty}
+    \newpage\@firstpage
   \fi
   \global\@topnum\z@   % Prevents figures from going at top of page.
 %  \@thanks
