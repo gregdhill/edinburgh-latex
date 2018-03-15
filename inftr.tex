@@ -3,6 +3,7 @@
 \usepackage{graphicx}
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
+\usepackage[nolist,nohyperlinks]{acronym}
 \usepackage[numbers]{natbib}
 \bibliographystyle{plain}
 
@@ -33,6 +34,8 @@ Victor recounts his fervent love for science, explaining, ``Curiosity, earnest r
 \section{Methodology}
 \label{sec:method}
 
+The following process will find the \ac{GCD}.
+
 \begin{algorithm}
 \caption{Euclid's Algorithm}\label{alg:euclid}
 \begin{algorithmic}[1]
@@ -59,5 +62,9 @@ Victor recounts his fervent love for science, explaining, ``Curiosity, earnest r
 
 \newpage
 \bibliography{bibliography}
+
+\begin{acronym}
+	\acro{GCD}{Greatest Common Divisor}
+\end{acronym}
 
 \end{document}
