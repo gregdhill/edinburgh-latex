@@ -1,0 +1,33 @@
+\documentclass[11pt,a4paper]{memoir}
+
+
+
+\setstocksize{55mm}{85mm} % UK Stock size
+\setpagecc{55mm}{85mm}{*}
+\settypeblocksize{45mm}{75mm}{*}
+\setulmargins{5mm}{*}{*}
+\setlrmargins{5mm}{*}{*}
+\usepackage{xcolor}
+
+\setheadfoot{0.1pt}{0.1pt}
+\setheaderspaces{1pt}{*}{*}
+\usepackage{fontspec}
+\setmainfont[]{Caslon Italic with Swashes Std Regular.otf} 
+
+\checkandfixthelayout[fixed]
+
+\pagestyle{empty}
+
+\usepackage{pstricks}
+\usepackage{auto-pst-pdf,pst-barcode}
+
+\begin{document}
+    \pagecolor{black!100}
+    \begin{Spacing}{0.75}%
+    \noindent
+	\begin{vplace}[0.7]
+	\centering
+	    {\fontsize{40}{50}\selectfont \color{white}G.H}
+	\end{vplace}
+    \end{Spacing}
+\end{document}
